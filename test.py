@@ -11,7 +11,7 @@ class react(unittest.TestCase):
         self.driver.maximize_window()
         time.sleep(5)
 
-    def test_add(self):
+    def tests(self):
         driver = self.driver
 
 
@@ -94,5 +94,5 @@ class react(unittest.TestCase):
 # if __name__ == '__main__':
 a = react()
 a.setUp()
-a.test_add()
+a.tests()
 a.tearDown()

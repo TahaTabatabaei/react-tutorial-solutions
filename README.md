@@ -1,16 +1,23 @@
-Solutions to additional challenges given in React's "tic tac toe" tutorial. [Demo](https://harman052.github.io/react-tutorial-solutions/)<br><br>
-In addition to tutorial challenges, reset and play again buttons are added. Technically, both are same. Reset button appears all the time but play again shows up only when game is over (i.e. either draw or win/lose).
+The scripe contains a test class, including 3 methods. The function 'setUp'
+is the initializations. The function 'tests' has the main parts of tests.
+It contains 4 tests:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1- rest:
+    It tests if the reset button is visable. We simulate a set of actions, then we look if 
+    reset button is dicoverable.
+    It pass.
 
-### How to start the app?
+2- test win:
+    We bulid a scenario which leads X wining the game.
+    It pass.
 
-Go to the app root directory and run: `npm start`
+3- test play again:
+    After finishing the scenario which X is winner, we look to see if play again button is 
+    discoverable.
+    It pass. 
 
-It will start the development server. App will open at [http://localhost:3000](http://localhost:3000) in the browser. The page will reload if you make edits. You will also see any lint errors in the console.
+4- test draw:
+    We bulid a scenario which leads X wining the game.
+    It pass
 
-### Useful links
-
-[Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html).
-
-#### Suggestions/contributions for all sorts of improvements are highly encouraged. :-)
+The 'tearDown' function close driver.
