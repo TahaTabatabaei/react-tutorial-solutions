@@ -1,25 +1,22 @@
-## Test with selenium
+# Simple Test with selenium
 
-The scripe contains a test class, including 3 methods. The function `setUp`
-is the initializations. The function `tests` has the main parts of tests.
+The script `test.py` contains a test class, including three methods. The function `setUp` is for initialization. The function `tests` contains the main parts of the tests.
 It contains 4 tests:
 
-# 1- rest:
-    It tests if the reset button is visable. We simulate a set of actions, then we look if 
-    reset button is dicoverable.
-    It pass.
+## reset:
+    It tests if the reset button is visible. We simulate a set of actions, then we look to see if the reset button is discoverable. 
+    It passes.
 
-# 2- [test win]:
-    We bulid a scenario which leads X wining the game.
-    It pass.
+## test win:
+    We build a scenario which leads to X winning the game.
+    It passes.
 
-# 3- test play again:
-    After finishing the scenario which X is winner, we look to see if play again button is 
-    discoverable.
-    It pass. 
+## test play again:
+    After finishing the scenario which results in X winning, we look to see if the "play again" button is discoverable.
+    It passes.
 
-# 4- test draw:
-    We bulid a scenario which leads X wining the game.
-    It pass
+## test draw:
+    We build a scenario which leads to X winning the game.
+    It passes.
 
-The `tearDown` function close driver.
+The `tearDown` function closes driver.
