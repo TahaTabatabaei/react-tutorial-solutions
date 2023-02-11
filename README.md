@@ -22,6 +22,11 @@ It contains 4 tests:
     We build a scenario which leads to draw.
     It passes.
 
+## test mid game:
+    There is an option which you could draw back your moves. The game provides
+    a button per move. This tests look to see if buttons work fine.
+    It passes.
+
 At the fianl step, the `tearDown` function closes driver.
 
 The project forked from [here](https://github.com/harman052/react-tutorial-solutions) and my project link is [this](https://github.com/TahaTabatabaei/react-tutorial-solutions).
